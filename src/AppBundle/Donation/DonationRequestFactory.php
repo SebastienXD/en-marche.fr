@@ -2,7 +2,6 @@
 
 namespace AppBundle\Donation;
 
-use AppBundle\Donation\DonationType\UniqDonationTypeImpl;
 use AppBundle\Entity\Adherent;
 use libphonenumber\PhoneNumber;
 use Symfony\Component\HttpFoundation\Request;

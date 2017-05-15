@@ -88,6 +88,11 @@ export default class AmountChooser extends React.Component {
                         €
                     </label>
                 </div>
+
+                <div>
+                    <input type="checkbox" name="abonnement" id="donation-monthly" />
+                    <label for="donation-monthly">Je veux donner chaque mois ce montant</label>
+                </div>
             </div>
         );
     }

@@ -3,7 +3,6 @@
 namespace AppBundle\Entity;
 
 use Algolia\AlgoliaSearchBundle\Mapping\Annotation as Algolia;
-use AppBundle\Donation\DonationType\UniqDonationTypeImpl;
 use AppBundle\Exception\InitializedEntityException;
 use AppBundle\Geocoder\GeoPointInterface;
 use Doctrine\ORM\Mapping as ORM;
@@ -79,7 +78,7 @@ class Donation implements GeoPointInterface
     private $createdAt;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", length=3)
      */
     private $frequency;
 

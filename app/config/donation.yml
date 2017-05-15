@@ -1,0 +1,3 @@
+parameters:
+#    Frequency of monthly payment (00: unlimited payment - 02: 2 months etc)
+    frequency: ['00','02','06']

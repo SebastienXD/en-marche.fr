@@ -115,6 +115,7 @@ class DonationRequest
         $dto->cityName = $adherent->getCityName();
         $dto->country = $adherent->getCountry();
         $dto->phone = $adherent->getPhone();
+        $dto->setFrequency('01');
 
         return $dto;
     }
